@@ -1,0 +1,15 @@
+exec(open('musicnotation.py').read())
+
+size(800,110)
+p = (0,20)
+stroke(0)
+noteSystem(p,200)
+
+note((30,30))
+accNatural((30,30))
+translate(40,0)
+note((30,30))
+accSharp((30,30))
+translate(40,0)
+note((30,30))
+accFlat((30,30))
